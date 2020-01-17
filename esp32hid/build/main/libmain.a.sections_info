@@ -1,0 +1,525 @@
+In archive /Users/liented/Desktop/esp/hid5/build/main/libmain.a:
+
+esp_hidd_prf_api.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_hidd_register_callbacks 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.esp_hidd_profile_init 00000018  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.esp_hidd_profile_deinit 00000020  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.esp_hidd_send_consumer_value 0000000c  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.esp_hidd_send_keyboard_value 0000001c  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.esp_hidd_send_mouse_value 00000008  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_hidd_send_joystick_value 00000018  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  000000cc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  000000cc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  000000cc  2**0
+                  ALLOC
+ 10 .text.esp_hidd_register_callbacks 00000031  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.str1.4 000000b3  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.esp_hidd_profile_init 00000041  00000000  00000000  000001b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.esp_hidd_profile_deinit 00000050  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.esp_hidd_get_version 00000008  00000000  00000000  00000248  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .text.esp_hidd_send_consumer_value 00000036  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.esp_hidd_send_keyboard_value 00000067  00000000  00000000  00000288  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.esp_hidd_send_mouse_value 0000002e  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.esp_hidd_send_joystick_value 00000076  00000000  00000000  00000320  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .rodata.__func__$6564 0000001d  00000000  00000000  00000398  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .debug_frame  000000d0  00000000  00000000  000003b8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_info   00000b0a  00000000  00000000  00000488  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_abbrev 00000220  00000000  00000000  00000f92  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .debug_loc    00000196  00000000  00000000  000011b2  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_aranges 00000058  00000000  00000000  00001348  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_ranges 00000048  00000000  00000000  000013a0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_line   00000491  00000000  00000000  000013e8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_str    00000cd6  00000000  00000000  00001879  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .comment      0000003b  00000000  00000000  0000254f  2**0
+                  CONTENTS, READONLY
+ 29 .xtensa.info  00000038  00000000  00000000  0000258a  2**0
+                  CONTENTS, READONLY
+ 30 .xt.lit       00000038  00000000  00000000  000025c2  2**0
+                  CONTENTS, RELOC, READONLY
+ 31 .xt.prop      00000234  00000000  00000000  000025fa  2**0
+                  CONTENTS, RELOC, READONLY
+
+hid_dev.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.hid_dev_rpt_by_id 0000000c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.hid_dev_register_reports 00000008  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.hid_dev_send_report 00000008  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.hid_consumer_build_report 00000014  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000064  2**0
+                  ALLOC
+  7 .text.hid_dev_rpt_by_id 0000003c  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.hid_dev_register_reports 00000010  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.hid_dev_send_report 0000002f  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.str1.4 00000056  00000000  00000000  000000e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .text.hid_consumer_build_report 0000020a  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.__func__$4463 0000001a  00000000  00000000  00000344  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .bss.hid_dev_rpt_tbl_Len 00000001  00000000  00000000  0000035e  2**0
+                  ALLOC
+ 14 .bss.hid_dev_rpt_tbl 00000004  00000000  00000000  00000360  2**2
+                  ALLOC
+ 15 .debug_frame  00000070  00000000  00000000  00000360  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_info   000004c2  00000000  00000000  000003d0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_abbrev 000001c7  00000000  00000000  00000892  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_loc    000000a8  00000000  00000000  00000a59  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_aranges 00000038  00000000  00000000  00000b01  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_ranges 00000040  00000000  00000000  00000b39  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_line   0000034c  00000000  00000000  00000b79  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_str    0000088b  00000000  00000000  00000ec5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 23 .comment      0000003b  00000000  00000000  00001750  2**0
+                  CONTENTS, READONLY
+ 24 .xtensa.info  00000038  00000000  00000000  0000178b  2**0
+                  CONTENTS, READONLY
+ 25 .xt.lit       00000020  00000000  00000000  000017c3  2**0
+                  CONTENTS, RELOC, READONLY
+ 26 .xt.prop      00000324  00000000  00000000  000017e3  2**0
+                  CONTENTS, RELOC, READONLY
+
+hid_device_le_prf.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.gatts_event_handler 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.hid_add_id_tbl 00000020  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.hidd_le_create_service 00000008  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.hidd_le_init 00000008  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.hidd_clcb_alloc 00000008  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.hidd_clcb_dealloc 00000004  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_hidd_prf_cb_hdl 00000070  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.hidd_register_cb 00000008  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.hidd_set_attr_value 0000001c  00000000  00000000  000000fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.hidd_get_attr_value 0000001c  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text         00000000  00000000  00000000  00000134  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .data         00000000  00000000  00000000  00000134  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .bss          00000000  00000000  00000000  00000134  2**0
+                  ALLOC
+ 13 .rodata.str1.4 00000152  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .text.gatts_event_handler 00000075  00000000  00000000  00000288  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.hid_add_id_tbl 000000da  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.hidd_le_create_service 00000016  00000000  00000000  000003dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.hidd_le_init 00000013  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.hidd_clcb_alloc 0000003b  00000000  00000000  00000408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.hidd_clcb_dealloc 00000016  00000000  00000000  00000444  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.esp_hidd_prf_cb_hdl 000001a3  00000000  00000000  0000045c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.hidd_register_cb 00000010  00000000  00000000  00000600  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.hidd_set_attr_value 00000046  00000000  00000000  00000610  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.hidd_get_attr_value 00000042  00000000  00000000  00000658  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .rodata.__func__$4564 00000014  00000000  00000000  0000069c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .rodata.__func__$4557 00000014  00000000  00000000  000006b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .rodata.__func__$4512 00000014  00000000  00000000  000006c4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .data.heart_rate_profile_tab 0000000c  00000000  00000000  000006d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 28 .data.hidd_le_gatt_db 00000378  00000000  00000000  000006e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 29 .rodata.bas_att_db 00000078  00000000  00000000  00000a5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 30 .data.battary_lev 00000001  00000000  00000000  00000ad4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 31 .rodata.char_format_uuid 00000002  00000000  00000000  00000ad6  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 32 .rodata.bat_lev_ccc 00000002  00000000  00000000  00000ad8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 33 .rodata.bat_lev_uuid 00000002  00000000  00000000  00000ada  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 34 .rodata.battary_svc 00000002  00000000  00000000  00000adc  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 35 .rodata.char_prop_read_notify 00000001  00000000  00000000  00000ade  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 36 .rodata.char_prop_read_write 00000001  00000000  00000000  00000adf  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 37 .rodata.char_prop_write_nr 00000001  00000000  00000000  00000ae0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .rodata.char_prop_read 00000001  00000000  00000000  00000ae1  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 39 .rodata.hid_report_ref_descr_uuid 00000002  00000000  00000000  00000ae2  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 40 .rodata.hid_repot_map_ext_desc_uuid 00000002  00000000  00000000  00000ae4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .rodata.hid_mouse_input_uuid 00000002  00000000  00000000  00000ae6  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 42 .rodata.hid_kb_output_uuid 00000002  00000000  00000000  00000ae8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 43 .rodata.hid_kb_input_uuid 00000002  00000000  00000000  00000aea  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 44 .rodata.hid_proto_mode_uuid 00000002  00000000  00000000  00000aec  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 45 .rodata.hid_report_uuid 00000002  00000000  00000000  00000aee  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .rodata.hid_control_point_uuid 00000002  00000000  00000000  00000af0  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .rodata.hid_report_map_uuid 00000002  00000000  00000000  00000af2  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 48 .rodata.hid_info_char_uuid 00000002  00000000  00000000  00000af4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 49 .rodata.character_client_config_uuid 00000002  00000000  00000000  00000af6  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 50 .rodata.character_declaration_uuid 00000002  00000000  00000000  00000af8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 51 .rodata.include_service_uuid 00000002  00000000  00000000  00000afa  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 52 .rodata.primary_service_uuid 00000002  00000000  00000000  00000afc  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 53 .bss.incl_svc 00000006  00000000  00000000  00000b00  2**2
+                  ALLOC
+ 54 .bss.hid_count 00000002  00000000  00000000  00000b00  2**1
+                  ALLOC
+ 55 .data.hid_le_svc 00000002  00000000  00000000  00000b00  2**1
+                  CONTENTS, ALLOC, LOAD, DATA
+ 56 .data.hidReportRefCCIn 00000002  00000000  00000000  00000b04  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 57 .data.hidReportRefFeature 00000002  00000000  00000000  00000b08  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 58 .data.hidReportRefLedOut 00000002  00000000  00000000  00000b0c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 59 .data.hidReportRefKeyIn 00000002  00000000  00000000  00000b10  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 60 .data.hidReportRefMouseIn 00000002  00000000  00000000  00000b14  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 61 .data.hidExtReportRefDesc 00000002  00000000  00000000  00000b16  2**1
+                  CONTENTS, ALLOC, LOAD, DATA
+ 62 .rodata.hidInfo 00000004  00000000  00000000  00000b18  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 63 .data.hidProtocolMode 00000001  00000000  00000000  00000b1c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 64 .data.hidReportMapLen 00000001  00000000  00000000  00000b1d  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 65 .rodata.hidReportMap 00000030  00000000  00000000  00000b20  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 66 .bss.hid_rpt_map 00000048  00000000  00000000  00000b50  2**2
+                  ALLOC
+ 67 .debug_frame  00000100  00000000  00000000  00000b50  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 68 .debug_info   00001adf  00000000  00000000  00000c50  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 69 .debug_abbrev 000002af  00000000  00000000  0000272f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 70 .debug_loc    00000191  00000000  00000000  000029de  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 71 .debug_aranges 00000068  00000000  00000000  00002b6f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 72 .debug_ranges 00000058  00000000  00000000  00002bd7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 73 .debug_line   00000621  00000000  00000000  00002c2f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 74 .debug_str    00001cd2  00000000  00000000  00003250  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 75 .comment      0000003b  00000000  00000000  00004f22  2**0
+                  CONTENTS, READONLY
+ 76 .xtensa.info  00000038  00000000  00000000  00004f5d  2**0
+                  CONTENTS, READONLY
+ 77 .xt.lit       00000050  00000000  00000000  00004f95  2**0
+                  CONTENTS, RELOC, READONLY
+ 78 .xt.prop      00000504  00000000  00000000  00004fe5  2**0
+                  CONTENTS, RELOC, READONLY
+
+joystick_buttons.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.send_event 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.joystick_buttons_task 0000003c  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.joystick_buttons_init 0000001c  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000094  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000094  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000094  2**0
+                  ALLOC
+  6 .text.send_event 0000001a  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.str1.4 00000098  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.joystick_buttons_task 000000c3  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.joystick_buttons_init 00000034  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .bss.queue    00000004  00000000  00000000  00000240  2**2
+                  ALLOC
+ 11 .rodata.button_idx_map 0000000a  00000000  00000000  00000240  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .debug_frame  00000058  00000000  00000000  0000024c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_info   00000521  00000000  00000000  000002a4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_abbrev 00000211  00000000  00000000  000007c5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_loc    00000069  00000000  00000000  000009d6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_aranges 00000030  00000000  00000000  00000a3f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_ranges 00000038  00000000  00000000  00000a6f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_line   00000348  00000000  00000000  00000aa7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_str    000003e5  00000000  00000000  00000def  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .comment      0000003b  00000000  00000000  000011d4  2**0
+                  CONTENTS, READONLY
+ 21 .xtensa.info  00000038  00000000  00000000  0000120f  2**0
+                  CONTENTS, READONLY
+ 22 .xt.lit       00000018  00000000  00000000  00001247  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop      000000fc  00000000  00000000  0000125f  2**0
+                  CONTENTS, RELOC, READONLY
+
+joystick_main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.hidd_event_callback 0000004c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.gap_event_handler 0000004c  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.readJoystickChannel 0000000c  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.read_joystick_init 00000014  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.disp_buf 0000000c  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.mpu6050_init 00000020  00000000  00000000  000000f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.mpu6050_read_acce 00000038  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.mpu6050_read_gyro 0000002c  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.i2c_master_init 00000014  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.mpu6050_test_raw 00000028  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.getAcce 0000000c  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.read_joystick_task 00000040  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.mpu6050_myinit 00000008  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.app_main 000000c4  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text         00000000  00000000  00000000  000002d0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .data         00000000  00000000  00000000  000002d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .bss          00000000  00000000  00000000  000002d0  2**0
+                  ALLOC
+ 17 .rodata.str1.4 00000405  00000000  00000000  000002d0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.hidd_event_callback 000000a6  00000000  00000000  000006d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.gap_event_handler 000000e3  00000000  00000000  00000780  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.readJoystickChannel 00000023  00000000  00000000  00000864  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.read_joystick_init 00000021  00000000  00000000  00000888  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.disp_buf 00000030  00000000  00000000  000008ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.mpu6050_init 0000005c  00000000  00000000  000008dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.mpu6050_read_acce 0000009c  00000000  00000000  00000938  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.mpu6050_read_gyro 0000008a  00000000  00000000  000009d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.i2c_master_init 0000003e  00000000  00000000  00000a60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.mpu6050_test_raw 00000046  00000000  00000000  00000aa0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.getAcce 0000006f  00000000  00000000  00000ae8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.read_joystick_task 000000fb  00000000  00000000  00000b58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.mpu6050_myinit 00000011  00000000  00000000  00000c54  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .rodata       00000020  00000000  00000000  00000c68  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 32 .text.app_main 000001d8  00000000  00000000  00000c88  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .rodata.__func__$9652 00000014  00000000  00000000  00000e60  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 34 .rodata.__func__$9702 00000009  00000000  00000000  00000e74  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 35 .data.hidd_adv_params 00000020  00000000  00000000  00000e80  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 36 .data.hidd_adv_data 0000002c  00000000  00000000  00000ea0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 37 .data.hidd_service_uuid128 00000010  00000000  00000000  00000ecc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 38 .bss.hid_conn_id 00000002  00000000  00000000  00000edc  2**1
+                  ALLOC
+ 39 .data.MAXVALUE 00000004  00000000  00000000  00000edc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 40 .debug_frame  00000160  00000000  00000000  00000ee0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_info   00002a11  00000000  00000000  00001040  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_abbrev 0000039b  00000000  00000000  00003a51  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 43 .debug_loc    00000511  00000000  00000000  00003dec  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_aranges 00000088  00000000  00000000  000042fd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 45 .debug_ranges 000000c0  00000000  00000000  00004385  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 46 .debug_line   00000a76  00000000  00000000  00004445  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 47 .debug_str    00002a9a  00000000  00000000  00004ebb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 48 .comment      0000003b  00000000  00000000  00007955  2**0
+                  CONTENTS, READONLY
+ 49 .xtensa.info  00000038  00000000  00000000  00007990  2**0
+                  CONTENTS, READONLY
+ 50 .xt.lit       00000070  00000000  00000000  000079c8  2**0
+                  CONTENTS, RELOC, READONLY
+ 51 .xt.prop      00000510  00000000  00000000  00007a38  2**0
+                  CONTENTS, RELOC, READONLY
+
+mpu6050_raw.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.disp_buf 0000000c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.mpu6050_init 00000020  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.mpu6050_read_acce 00000038  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.mpu6050_read_gyro 0000002c  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.i2c_master_init 00000014  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.mpu6050_test_raw 00000028  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.getAcce 0000000c  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.mpu6050_myinit 00000008  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text         00000000  00000000  00000000  00000114  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .data         00000000  00000000  00000000  00000114  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 .bss          00000000  00000000  00000000  00000114  2**0
+                  ALLOC
+ 11 .rodata.str1.4 00000088  00000000  00000000  00000114  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.disp_buf 00000030  00000000  00000000  0000019c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.mpu6050_init 0000005c  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.mpu6050_read_acce 0000009c  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.mpu6050_read_gyro 0000008a  00000000  00000000  000002c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.i2c_master_init 0000003e  00000000  00000000  00000350  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.mpu6050_test_raw 00000047  00000000  00000000  00000390  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.getAcce 0000006f  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.mpu6050_myinit 00000011  00000000  00000000  00000448  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .data.MAXVALUE 00000004  00000000  00000000  0000045c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 21 .debug_frame  000000d0  00000000  00000000  00000460  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_info   00000aa9  00000000  00000000  00000530  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_abbrev 00000200  00000000  00000000  00000fd9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 24 .debug_loc    000001ca  00000000  00000000  000011d9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_aranges 00000058  00000000  00000000  000013a3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_ranges 00000048  00000000  00000000  000013fb  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_line   0000050f  00000000  00000000  00001443  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_str    000006a1  00000000  00000000  00001952  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .comment      0000003b  00000000  00000000  00001ff3  2**0
+                  CONTENTS, READONLY
+ 30 .xtensa.info  00000038  00000000  00000000  0000202e  2**0
+                  CONTENTS, READONLY
+ 31 .xt.lit       00000040  00000000  00000000  00002066  2**0
+                  CONTENTS, RELOC, READONLY
+ 32 .xt.prop      00000204  00000000  00000000  000020a6  2**0
+                  CONTENTS, RELOC, READONLY
